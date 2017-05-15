@@ -108,4 +108,13 @@ class Adyen_Payment_Block_Form_Oneclick extends Adyen_Payment_Block_Form_Cc {
     {
         return $this->getMethod()->getRecurringDetails();
     }
+
+
+    /**
+     * @return mixed
+     */
+    public function showRecurringCardsOnly()
+    {
+        return Mage::getStoreConfigFlag('payment/adyen_oneclick/recurring_cards_only')
+    }
 }
