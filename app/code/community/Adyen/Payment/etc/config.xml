@@ -421,6 +421,7 @@
                 <title>Adyen OneClick</title>
                 <sort_order>1</sort_order>
                 <recurring_payment_type>ONECLICK</recurring_payment_type>
+                <recurring_cards_only>0</recurring_cards_only>
             </adyen_oneclick>
             <adyen_boleto translate="title" module="adyen">
                 <active>0</active>
